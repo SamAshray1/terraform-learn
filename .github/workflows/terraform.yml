@@ -18,7 +18,7 @@ jobs:
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
     defaults:
       run:
-        working-directory: 07-managing-multiple-environments/file-structure/staging
+        working-directory: 07-managing-multiple-environments/file-structure/stage
     steps:
       - name: Checkout
         uses: actions/checkout@v2
